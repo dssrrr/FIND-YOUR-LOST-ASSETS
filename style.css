@@ -1,0 +1,44 @@
+header.lost-page
+{
+	height: 10%;
+	border-radius: 6px;
+	border: 0;
+}
+body {
+  background-color:grey;
+}
+
+input[type=button],[type=submit],[type=reset]
+{
+	background-color:black; 
+	border:none;
+	border-radius:6px;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+header.found-page
+{
+	
+	height: 10%;
+	border-radius: 6px;
+	border: 0;
+}
+section.foundPage
+{
+	
+	height: 10%;
+	border-radius: 6px;
+	border: 0;
+}
+	
+img{
+	border-radius:8px;
+}
+h1.homePage{
+	font-family: "Garamond", Times, serif;
+	font-size:70px;
+}

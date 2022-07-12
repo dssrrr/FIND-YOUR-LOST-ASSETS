@@ -1,0 +1,11 @@
+.login-block {
+  float: center;
+  margin: 0 49px 25px 0;
+  width: 260px;
+}
+form {
+  border: 3px solid #ccc;
+  padding: 20px;
+}
+
+

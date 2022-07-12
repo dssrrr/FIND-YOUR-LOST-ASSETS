@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap.min.css"> 
+    <link rel='stylesheet' href='style.css'>
+	<link rel='stylesheet' href="nstyle.css" >
+	<title>Found an item</title>
+</head>
+<body>
+<center>
+   <header class='found-page'>
+   	 <div>
+   	 	<h1 >REPORTING A FOUND ITEM</h1> 	
+   	 </div>
+   </header>
+
+   <section class='foundPage'>
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+        <h3 style="color: darkblue; padding-left: 50px;">ENTER THE DETAILS</h3>
+
+         <div >
+   	     <label>Item Name:</label><br><br>
+   	     <input type="text" name="name">
+         </div>
+
+         <div >   
+            <label>Description of the Item Found:</label><br>
+            <textarea type="text" name="description" rows="3" cols="40"></textarea><br><br>
+         </div>
+		 
+		 <div >
+   	     <label>Date : </label><br>
+		 <input type="date" name="uploadedDate" value="">
+		 <div><span style='color:red'>**</span>format-{YYYY-MM-DD}<br><br></div>
+         </div>
+
+         <div >
+            <br><label>Upload picture of item here: </label><br>
+            <input type="file" name="image"><br>
+            <div><span style="color:red">**</span>size of image must be less than 1MB<span style="color:red">**</span><br></div>
+         </div>
+
+         <h4 style="color:darkblue; padding-left: 50px; padding-top: 20px; ">PROVIDE YOUR CONTACT DETAILS</h4>
+         
+          <div style="padding-left: 50px;">   
+            <p>Please ensure that details you provide are correct</p>
+            <textarea type="text" name="contact" rows="4" cols="40"></textarea>
+         </div>
+
+         <div style="padding-left: 50px;">
+            <br>
+            <input type="submit" name="submit"><br>
+         </div>
+
+
+      </form>
+   </section>
+
+</center>
+</body>
+</html>
